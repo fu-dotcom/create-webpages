@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>お問合わせフォーム</title>
+  <link rel="stylesheet" href="css/styles.css"></link>
+</head>
+
+<body>
+  <form action="./contctform.php" method="post">
+    <h1 class ="lead-form">お問い合わせ</h1>
+    <p>お客様からのご質問をお問合せフォームにて受け付けております。<br>
+      全てご記入の上確認画面へを押してください。</p>
+      
+      <h3>お客様情報を入力してください。</h3>
+      <div class ="item">
+        <label class ="label">お名前</label>
+        <input class ="inputs" type ="text" name ="name" value=""> 
+      </div>
+      
+      <div class ="item">
+        <label class ="label">Email</label>
+        <input class ="inputs" type ="email" name ="email" value=""> 
+      </div>
+    
+    <h3>お問合せ内容を入力ししてください。</h3>
+    
+      <div class ="item">
+        <label class="label">お問い合わせ</label>
+        <textarea class ="inputs"></textarea>  
+      </div>
+      
+      <div class ="btn-area">
+        <input type ="submit" value="確認画面へ" value="">
+      </div>
+    
+  </form>
+  </body>
+  </html>
